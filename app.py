@@ -4,7 +4,7 @@ import pickle
 import requests
 
 # 🔧 OMDb API key
-OMDB_API_KEY = "e4d2063c"
+OMDB_API_KEY = "ENTER_YOUR_API_KEY_HERE"
 
 # 🔧 Fetch movie poster from OMDb API
 def fetch_poster_omdb(movie_name):
@@ -67,3 +67,4 @@ if st.button('Recommend'):
         with cols[i]:
             st.text(names[i])
             st.image(posters[i])
+
